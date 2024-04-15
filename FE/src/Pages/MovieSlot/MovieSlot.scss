@@ -1,0 +1,125 @@
+.MainSlotBox {
+  
+  // height: 200px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto;
+  // border: 1px solid red;
+  width: 100%;
+}
+
+
+
+.EachDiv {
+  // border: 1px solid black;
+  height: 100%;
+  // padding: 10px;
+  box-sizing: border-box;
+}
+
+.time-slot{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  height: 181px;
+  // width: 100%;
+  width: 191px;
+  margin-top: 17px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IncDecSeat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.StartEndBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  // margin-top: 10px;
+}
+.StartTime {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+
+.DeleteModalBtn{
+  border-radius: 20px !important;
+  padding: 10px 15px !important;
+  color: white !important;
+  background-color: #ed2626 !important;
+  font-weight: 500 !important;
+  border: none !important;
+  font-size: 17px !important;
+}
+
+.DeleteModalBtn:hover{
+  cursor: pointer;
+  background-color: #a60404 !important;
+}
+
+.CancelModalBtn{
+  border-radius: 20px !important;
+  padding: 10px 15px !important;
+  color: white !important;
+  background-color: #2659ED !important;
+  font-weight: 500 !important;
+  border: none !important;
+  font-size: 17px !important;
+}
+
+
+.CancelModalBtn:hover{
+  background-color: #1E4B8F !important;
+}
+
+.EndTime{
+  margin-top: -20px;
+}
+
+.saveAndContinue {
+  background-color: #2659ed;
+  color: #fff;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.disabledSaveAndCont{
+  background-color: #ccc; /* Change to a grayish color */
+  opacity: 0.5; /* Reduce opacity to make it appear faded */
+  color: #fff;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  border: none;
+}
+
+.saveAndContinue:hover {
+  background-color: #1e4b8f;
+}
+
+

@@ -1,0 +1,123 @@
+.loginBox{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 40%;
+    height: 600px;
+    margin: auto;
+    padding: 30px 70px 0px 70px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    
+    /* border: 1px solid red; */
+}
+
+
+.Alredy{
+    margin-top: 15px;
+    display: block;
+    /* border: 1px solid blue; */
+}
+
+.LoginLogo{
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: rgb(115, 139, 228) -5px -5px 105px;;
+}
+
+
+.LoginSignBox {
+    border: 1px solid #d6d4d4;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    font-size: 13.5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    gap: 3px;
+  }
+
+
+.logoBox{
+
+    display: flex;
+    justify-content: center;
+}
+
+.loginInput{
+    background-color: transparent;
+    padding: 1rem;
+    border: 0.1rem solid #000842 !important;
+    border-radius: 0.4rem;
+    /* color: white; */
+    max-width: 100%;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-top: 40px !important;
+}
+
+.loginBtn{
+    margin-top: 40px;
+    width: 100%;
+    padding: 12px ;
+    color: white;
+    background-color: #000842;
+    border-radius: 15px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+.loginBtn:hover{
+    cursor: pointer;
+     background-color: #101e88;
+}
+
+
+
+
+input:focus{
+    border: white;
+    outline: 0.1rem solid rgb(40, 40, 168);
+}
+
+
+@media  (min-width:80px) and (max-width:500px){
+    .loginBox{
+       width: 100%; 
+       /* border: 1px solid red; */
+       padding: 30px ;
+    }
+
+
+    .Alredy{
+        font-size: 15px;
+    }
+
+
+    .LoginLogo{
+        height: 120px;
+        width: 60%;
+        /* border: 1px solid black; */
+    }
+
+
+}
+
+
+@media  (min-width:501px) and (max-width:1500px){
+    .loginBox{
+        width: 60%; 
+        /* border: 1px solid red; */
+        padding: 30px ;
+     }
+ 
+ 
+     .Alredy{
+         font-size: 15px;
+     }
+ 
+ 
+     .LoginLogo{
+         height: 120px;
+     }
+}

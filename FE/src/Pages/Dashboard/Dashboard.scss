@@ -1,0 +1,150 @@
+.createBtn{
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: white;
+    background-color: #2659ED;
+    font-weight: 500;
+    border: none;
+    font-size: 17px;
+    height: 50px;
+}
+
+.createBtn:hover{
+    cursor: pointer;
+    background-color: #1E4B8F;
+}
+
+.TableLayout{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.headerBox{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+
+.DeleteModalBtn{
+  border-radius: 20px !important;
+  padding: 10px 15px !important;
+  color: white !important;
+  background-color: #ed2626 !important;
+  font-weight: 500 !important;
+  border: none !important;
+  font-size: 17px !important;
+}
+
+.DeleteModalBtn:hover{
+  cursor: pointer;
+  background-color: #a60404 !important;
+}
+
+.CancelModalBtn{
+  border-radius: 20px !important;
+  padding: 10px 15px !important;
+  color: white !important;
+  background-color: #2659ED !important;
+  font-weight: 500 !important;
+  border: none !important;
+  font-size: 17px !important;
+}
+
+
+.CancelModalBtn:hover{
+  background-color: #1E4B8F !important;
+}
+
+.logOutBtn{
+  border-radius: 20px;
+  padding: 15px 30px;
+  color: white;
+  background-color: #ed2626;
+  font-weight: 500;
+  border: none;
+  font-size: 17px;
+  height: 50px;
+}
+
+.logOutBtn:hover{
+  cursor: pointer;
+  background-color: #a60404;
+}
+
+
+.logoImg{
+  border-radius: 20%;
+  height: 90px;
+}
+
+/* Dashboard.scss */
+
+.createCard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.createCard__field {
+ border-bottom: 1px solid gray;
+  padding: 20px;
+}
+
+.createCard__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.createCard__column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.createCard label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.DateField{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Inputs will take full width of the column */
+  margin-bottom: 10px;
+}
+
+.createCard button {
+  background-color: #2659ED;
+  color: #FFF;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 31px;
+  padding: 15px 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.createCard button:hover{
+    background-color: #495e9c;
+}
+
+.createCard button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.tableHeading{
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
